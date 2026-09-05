@@ -1,0 +1,12 @@
+generated: '2026-09-05'
+method: searched
+source: https://21gram.co.kr/pricing
+plan_count: 0
+plans: []
+note: >-
+  21gram publishes a detailed consumer price list for pet funeral services
+  (cremation tiers, urns, memorial jewelry, hearse and charnel options) at
+  https://21gram.co.kr/pricing, but it has no API and therefore no API plans,
+  tiers, quotas or overage terms. plan_count is an honest zero: the pricing page
+  is real and is wired as a Pricing pointer in apis.yml, but it prices funerals,
+  not API access.

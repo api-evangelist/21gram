@@ -1,0 +1,34 @@
+generated: '2026-09-05'
+method: searched
+source: >-
+  npm registry search, PyPI, GitHub code/repo search, and the 21gram.co.kr
+  sitemap and site footer
+packages: []
+package_count: 0
+note: >-
+  21gram publishes no client libraries. It ships no API, so there is nothing to
+  wrap. No Packages or SDKs pointer is emitted.
+registries_probed:
+- {registry: npm, query: '21gram', result: no first-party package}
+- {registry: pypi, name: '21gram', status: 404}
+- {registry: github, query: '21gram in:name,description', result: no company-owned repo}
+rejected:
+- name: "@21gram-consulting/next-rest"
+  registry: npm
+  url: https://www.npmjs.com/package/@21gram-consulting/next-rest
+  reason: >-
+    Belongs to 21Gram Consulting, a different company that merely shares the
+    name. Not the Korean pet funeral operator profiled here.
+- name: "@21gram-consulting/storage-api"
+  registry: npm
+  url: https://www.npmjs.com/package/@21gram-consulting/storage-api
+  reason: >-
+    Same — 21Gram Consulting, a separate organization. Attributing it here would
+    credit 21gram with a package it did not publish.
+name_collisions:
+- name: 21GRAMS
+  what: US healthcare marketing agency acquired by W2O; unrelated
+- name: 21grams
+  what: Nordic outbound-document/post company acquired by Unifiedpost Group in 2020; unrelated
+- name: 21Gram Consulting
+  what: software consultancy publishing the @21gram-consulting npm scope; unrelated

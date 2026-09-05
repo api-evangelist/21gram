@@ -1,0 +1,25 @@
+generated: '2026-09-05'
+method: searched
+source: https://21gram.co.kr/llms.txt
+http_status: 200
+content_type: text/plain;charset=utf-8
+bytes: 74
+file: 21gram-llms.txt
+note: >-
+  21gram serves a document at the canonical /llms.txt path and it is saved
+  verbatim, but it is NOT in llms.txt format. It is a four-line robots.txt-style
+  AI-usage policy (User-agent / Allow / Commercial-use: allowed /
+  Research-use: allowed) — it grants AI crawlers permission but carries no H1,
+  no summary blockquote and no link sections, so it points an agent at nothing.
+  Recorded as searched because the provider genuinely publishes it; graded here
+  as a permission grant rather than a docs index so a reader is not misled into
+  expecting a link surface behind it.
+format: robots-style-ai-policy
+deviations:
+- no-h1-title
+- no-summary-blockquote
+- no-link-sections
+grants:
+  commercial_use: allowed
+  research_use: allowed
+  allow: /

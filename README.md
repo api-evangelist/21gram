@@ -64,5 +64,35 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-21gram is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/21gram
+21gram (21그램) is a South Korean pet end-of-life care company. It operates pet funeral
+homes and an online booking and consultation platform for pet funerals — founded in Seoul,
+led by Kwon Shin-gu, and venture-backed (Korea Investment Partners, GS Retail, Coway,
+SB Partners, Wadiz Partners, JCurve Investment, Waterbear Capital). It began as an online
+brokerage connecting owners to licensed pet funeral homes nationwide, then moved into
+operating its own facilities, including Korea's first pet funeral hall (Arongi Cheonguk,
+Gwangju, Gyeonggi Province), branches in Gwangju, Namyangju and Cheonan, and a large
+charnel house.
+
+- Website: https://21gram.co.kr/
+- Harvest source: https://equityzen.com/company/21gram (secondary-market backlog)
+
+## API surface
+
+**None found.** 21gram publishes no developer program, no API reference, and no
+machine-readable contract. Contract discovery on 2026-09-05 probed the registrable domain
+and `www`: `/openapi.json`, `/swagger.json`, `/api-docs`, `/docs`, `/graphql`, `/apis.json`
+and `/apis.yml` all returned 404; every named `/.well-known/` path returned 404 on both
+hosts (with a negative-control path also returning 404, so the host is not a catch-all);
+and `api.`, `developer.` and `docs.21gram.co.kr` do not resolve. The 138-URL sitemap
+contains no developer, API or documentation page. The site runs on the hosted **imweb**
+site builder, so the company does not operate its own web platform.
+
+One real provider-published document was found: `https://21gram.co.kr/llms.txt` (HTTP 200),
+saved verbatim in `llms/`. It is a four-line robots-style AI-usage policy granting
+commercial and research use — not an llms.txt link index.
+
+**Name collisions — read before adding anything here.** Several unrelated companies share
+this name and their artifacts must never land in this repo: 21GRAMS (US healthcare
+marketing agency, acquired by W2O), 21grams (Nordic outbound-document company, acquired by
+Unifiedpost Group), and 21Gram Consulting (publisher of the `@21gram-consulting` npm
+scope). See `packages/21gram-packages.yml` for the rejections on record.

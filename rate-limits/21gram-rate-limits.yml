@@ -1,0 +1,12 @@
+generated: '2026-09-05'
+method: searched
+source: >-
+  21gram.co.kr site survey (sitemap, robots.txt, footer) — no developer
+  documentation of any kind exists
+limit_count: 0
+rate_limits: []
+note: >-
+  No API, so no published rate limits, no RateLimit-* / X-RateLimit-* response
+  headers and no documented exhaustion status. Honest zero. No RateLimits
+  pointer is emitted, so this recorded absence cannot be read as a rate-limit
+  signal the provider does not publish.

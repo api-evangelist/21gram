@@ -1,0 +1,15 @@
+generated: '2026-09-05'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: 21gram.co.kr
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 12 23:59:59 2026 GMT
+  hsts: false
+domains:
+- domain: 21gram.co.kr
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
