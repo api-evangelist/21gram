@@ -64,35 +64,94 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-21gram (21그램) is a South Korean pet end-of-life care company. It operates pet funeral
-homes and an online booking and consultation platform for pet funerals — founded in Seoul,
-led by Kwon Shin-gu, and venture-backed (Korea Investment Partners, GS Retail, Coway,
-SB Partners, Wadiz Partners, JCurve Investment, Waterbear Capital). It began as an online
-brokerage connecting owners to licensed pet funeral homes nationwide, then moved into
-operating its own facilities, including Korea's first pet funeral hall (Arongi Cheonguk,
-Gwangju, Gyeonggi Province), branches in Gwangju, Namyangju and Cheonan, and a large
-charnel house.
+21gram (21그램) is a South Korean pet end-of-life care company that operates pet funeral homes and an online booking and consultation platform for pet funerals. Founded in Seoul and led by Kwon Shin-gu, it began as an online brokerage letting owners find licensed pet funeral homes nationwide and book a service with 24-hour consultation, reservation and payment, then moved into operating its own facilities — acquiring Korea's first pet funeral hall, Arongi Cheonguk, in Gwangju, Gyeonggi Province — and now runs branches including Gwangju, Namyangju and Cheonan plus a large charnel house. Its consumer surface covers funeral procedures and pricing, cremation, memorial jewelry, hearse and non-attending funeral options, urns, flowers, temporary storage and scattering, and grief-support classes. It is venture-backed and trades on secondary markets. It publishes no developer program, API documentation, or machine-readable API contract; its website runs on the hosted imweb site builder.
 
-- Website: https://21gram.co.kr/
-- Harvest source: https://equityzen.com/company/21gram (secondary-market backlog)
+**Areas:** Company · Pet Care · Pet Loss · Funeral Services · Consumer Services · Booking · Marketplace · South Korea
 
-## API surface
+## 21gram on APIs.io
 
-**None found.** 21gram publishes no developer program, no API reference, and no
-machine-readable contract. Contract discovery on 2026-09-05 probed the registrable domain
-and `www`: `/openapi.json`, `/swagger.json`, `/api-docs`, `/docs`, `/graphql`, `/apis.json`
-and `/apis.yml` all returned 404; every named `/.well-known/` path returned 404 on both
-hosts (with a negative-control path also returning 404, so the host is not a catch-all);
-and `api.`, `developer.` and `docs.21gram.co.kr` do not resolve. The 138-URL sitemap
-contains no developer, API or documentation page. The site runs on the hosted **imweb**
-site builder, so the company does not operate its own web platform.
+Everything profiled for 21gram is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/21gram/](https://apis.io/providers/21gram/)** — or go straight to one of the APIs or properties below.
 
-One real provider-published document was found: `https://21gram.co.kr/llms.txt` (HTTP 200),
-saved verbatim in `llms/`. It is a four-line robots-style AI-usage policy granting
-commercial and research use — not an llms.txt link index.
+### Published properties
 
-**Name collisions — read before adding anything here.** Several unrelated companies share
-this name and their artifacts must never land in this repo: 21GRAMS (US healthcare
-marketing agency, acquired by W2O), 21grams (Nordic outbound-document company, acquired by
-Unifiedpost Group), and 21Gram Consulting (publisher of the `@21gram-consulting` npm
-scope). See `packages/21gram-packages.yml` for the rejections on record.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [21Gram Domain Security](https://apis.io/security/21gram/21gram-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [21Gram Plans Pricing](https://apis.io/plans/21gram/21gram-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [21Gram Rate Limits](https://apis.io/rate-limits/21gram/21gram-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://21gram.co.kr/)
+- [Pricing](https://21gram.co.kr/pricing)
+- [Support](https://21gram.co.kr/customercenter)
+- [Blog](https://21gram.co.kr/notice)
+
+## API Evangelist rating
+
+**Kin Score 7.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 10.5 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/21gram/](https://apis.io/providers/21gram/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 21gram: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/21gram/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
