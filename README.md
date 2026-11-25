@@ -80,19 +80,19 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [21Gram Domain Security](https://apis.io/security/21gram/21gram-domain-security/)
+- [21gram Domain Security](https://apis.io/security/21gram/21gram-domain-security/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [21Gram Plans Pricing](https://apis.io/plans/21gram/21gram-plans-pricing/)
+- [21gram Plans Pricing](https://apis.io/plans/21gram/21gram-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [21Gram Rate Limits](https://apis.io/rate-limits/21gram/21gram-rate-limits/)
+- [21gram Rate Limits](https://apis.io/rate-limits/21gram/21gram-rate-limits/)
 
 ## Where to find this API
 
@@ -105,7 +105,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 7.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 6.4** — minimal · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
@@ -114,7 +114,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Contract governance | 0.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 7.1 |
-| Access clarity | 10.5 |
+| Access clarity | 8.5 |
 
 **Agent readiness 2.5** — human-only
 
@@ -139,8 +139,14 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 0.0** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/21gram/](https://apis.io/providers/21gram/).
 
